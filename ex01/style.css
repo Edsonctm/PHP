@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(194, 178, 178);
+}
+
+input {
+    margin: 10px;
+}
+
+label{
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}

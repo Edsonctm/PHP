@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Testes PHP</title>
+</head>
+<body>
+        <form method="get" action="teste.php">
+            <label for="start">Digite um número de 0 a 100</label>
+            <input type="number" max="100" min="0" value="0" name="inicio" id="start">
+            <br>
+            <label for="end">Agora outro para encerrar</label>
+            <input type="number" max="100" min="0" value="100" name="final" id="end">
+            <br>
+            <label for="saltador">Agora diga de quanto em quanto devo somar</label>
+            <select name="saltador" id="saltador">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <input type="submit" value="Contar!">
+        </form>
+        
+</body>
+</html>
